@@ -19,11 +19,7 @@ function getNumber(string) {
 }
 
 function checkLength(word, length) {
-  if (word.length <= length) {
-    return true;
-  } else {
-    return false;
-  }
+    return word.length <= length
 }
 
 function addCharToString(string, length, symbol) {
